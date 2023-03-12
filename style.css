@@ -63,6 +63,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+
    
 }
 
@@ -92,6 +93,9 @@ h2 {
     color: azure;
     background-color: #655741;
     /* border: 1px solid rgb(186, 115, 0); */
+}
+.clientes .card{
+    height: 250px;
 }
 
 .card_objetivos {
@@ -125,19 +129,7 @@ h2 {
 }
 
 .fotoTeam {
-    width: 50%;
-    height: 400px;
-    object-fit: cover;
-}
-
-.fotoperfilEmanuel {
-    width: 35%;
-    height: 400px;
-    /* object-fit: cover; */
-}
-
-.fotoTeam {
-    width: 50%;
+    width: 80%;
     height: 100%;
     object-fit: cover;
 }
@@ -155,7 +147,7 @@ h2 {
 }
 .globalcarrusel .textoslargos{
     visibility: hidden;
-    width: 50%;
+    width: 80%;
     position: absolute;
     background-color: #655741;
     height: 100%;
@@ -169,22 +161,11 @@ h2 {
     visibility:visible;
 }
 
-
-.fotoperfilLucho {
-    width: 50%;
-    height: 350px;
-}
-
-.fotoperfilJulian {
-    width: 50%;
-    height: 350px;
-}
-
 .carousel-item__imagen ul li {
     display: inline;
     margin-left: 15px;
     list-style: circle;
-}
+} 
 
 footer {
     background-color: rgba(240, 248, 255, 0.479);
