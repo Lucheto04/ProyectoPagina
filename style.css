@@ -132,6 +132,40 @@ h2 {
     /* object-fit: cover; */
 }
 
+.fotoTeam {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+.globalcarrusel{ 
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 55%;
+    width: 100%;
+    margin-left: 1%;
+    margin-right: 1%;
+    overflow: hidden;
+    cursor: pointer;
+}
+.globalcarrusel .textoslargos{
+    visibility: hidden;
+    width: 50%;
+    position: absolute;
+    background-color: #655741;
+    height: 100%;
+    padding: 5%;
+    font-size: 1.4rem;
+    overflow-y: scroll;
+    
+}
+
+.globalcarrusel:hover > .textoslargos{
+    visibility:visible;
+}
+
+
 .fotoperfilLucho {
     width: 50%;
     height: 350px;
