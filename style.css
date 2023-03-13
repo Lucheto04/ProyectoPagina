@@ -70,7 +70,7 @@ body>div>nav {
 }
 
 .bg__texto__imgPrnc {
-    background-color: #0d00424f;
+    background-color: #0200084f;
     border-radius: 10px;
     width: 60%;
 }
@@ -96,7 +96,7 @@ body>div>nav {
     list-style: inside;
     color: azure;
 }
-/* INICIO DE LOS STYLES DE LAS CARTAS DEL PORQUE NOSOTROS */
+/* INICIO DE LAS CARTAS DEL PORQUE NOSOTROS */
 .carta_porque_nosotros{ 
     text-align: center;
     background-color: #666666;
@@ -104,18 +104,17 @@ body>div>nav {
     color: azure;
 }
 .carta_3{
-    padding-top: 6.5%;
-}
-.carta_6{
-    padding-top: 5%;
+    padding-top: 4%;
 }
 
-
-/* FINAL DE LOS STYLES DE LAS CARTAS DEL PORQUE NOSOTROS */
+/* FINAL DE LAS CARTAS DEL PORQUE NOSOTROS */
 
 h2 {
     color: #ffffff;
     font-size: 2rem;
+}
+h4 {
+    color: azure;
 }
 
 .diseño__cards {
@@ -125,7 +124,38 @@ h2 {
     color: azure;
     background-color: #655741;
 }
-
+/*Inicio de la seccion clientes*/
+.galeria__clientes {
+    display: flex;
+    height: 20rem;
+    gap: 1rem;
+}
+.fotos__clientes1 {
+    background-image: url(https://scontent.fbga1-4.fna.fbcdn.net/v/t39.30808-6/335608021_182921967787432_3883381267897911023_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=730e14&_nc_ohc=8iyBJcygiYEAX-0oYT-&_nc_ht=scontent.fbga1-4.fna&oh=00_AfACpnJ2TmL8sZeVu629a-_6kHHF_rbGYBdinYNY4Gk-BA&oe=64148CD1);
+}
+.fotos__clientes2 {
+    background-image: url(https://lh3.googleusercontent.com/Vg75h7OtCNzPctKz0dxZWWVG4lHiVpnoAmoRFHj-zzDMxe0j_ftlQ7a50Da2nqBx9mI0NJ0fZ8v4CZ3wChADDTyPN3CvgIC4rIX0CcGIVvIbmRORAVrfu4Q3iNHO2Oi6Gvcspaxh);
+}
+.fotos__clientes3 {
+    background-image: url(https://victorquijano.com/wp-content/uploads/2021/05/saber-cliente-satisfecho.jpg);
+}
+.fotos__clientes4 {
+    background-image: url(https://lh4.googleusercontent.com/1sCJiMOSRxYGbu6lsYD4y9-G-gSaQ3hckcI35ElV_7jUB1iVuwwP8Adau8U7ea4kRxkyhBgoSLrmw6KUK9MBLmKc_JJwvBQ0DFXkaiyTNB7D9lniM8A5wLyjj-BIm935v1K1gUOY);
+}
+.fotos__clientes5 {
+    background-image: url(https://media.gq.com.mx/photos/625d93aa869ffd3c7bb3f7b1/16:9/w_2560%2Cc_limit/oficina-1320686310.jpg);
+}
+.galeria__clientes > div {
+    flex: 1;
+    border-radius: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
+}
+.galeria__clientes > div:hover {
+    flex: 5;
+}
 .diseño__cards__comentarios {
     height: 200px;
     min-width: 250px;
@@ -173,9 +203,7 @@ h2 {
     background-color: #655741;
     height: 100%;
     padding: 5%;
-    font-size: 1.4rem;
-    /* overflow-y: scroll; */
-    
+    font-size: 1.4rem;    
 }
 
 .globalcarrusel:hover > .textoslargos{
@@ -191,40 +219,45 @@ h2 {
     width: 100%;
     height: 100%;
 }
+/*Fin de la seccion clientes*/
 
 .footer {
     background-color: #666666;
     color: azure;
 
 }
+.parte__sup__footer {
+    display: flex;
+    flex-direction: row;
+}
+.icon-tabler {
+    height: 60px;
+}
+.icon-tabler-redes {
+    height: 40px;
+}
 .contactos{
-    margin-left: 20%;
+    margin-left: 7%;
 }
 
 .direccion {
     display: flex;
-    flex-direction: inline;
-    
+    flex-direction: initial;
 }
 .email{
     display: flex;
-    flex-direction: inline;
+    flex-direction: initial;
 }
 .whatsapp{
     display: flex;
-    flex-direction: inline; 
+    flex-direction: initial;
 }
 
 .redes__footer{
     margin-left: 20%;
 }
 
-.parte__final__pagina {
-    margin: 2% 0 0 8%;
-}
-.hipervinculos_finales_footer {
-    margin-left: 30%;
-}
+
 
 @media (max-width: 768px) {
     .primera__parte {
@@ -232,7 +265,7 @@ h2 {
         background-repeat: no-repeat;
         background-size: cover;
         width: 100%;
-        height: 86%;
+        height: 90%;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -244,7 +277,7 @@ h2 {
         background-repeat: no-repeat;
         background-size: cover;
         width: 100%;
-        height: 60%;
+        height: 80%;
         display: flex;
         align-items: center;
         justify-content: center;
