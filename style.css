@@ -338,4 +338,15 @@ h4 {
 
     }
 }
+@media (min-width: 1000px) {
+
+    .titulo__imagen__principal{
+        font-size: 300%;
+    }
+
+    .texto__imagen__principal {
+        font-size: 170%;
+        margin-top: 3%;
+    }
+}
 
