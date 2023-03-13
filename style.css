@@ -25,11 +25,12 @@ body {
     display: flex;
     justify-content: space-between;
 }
-/* Hay que arreglar el error del menu, para que no se sobreescriba el contenido en el menu */
+
 body>div>nav {
     position: fixed !important; 
     top: 0 !important; 
     width: 100% !important; 
+    z-index: 1000 !important; /*La propiedad Z-index es la que le esta dando prioridad sobre las 1000 lineas de coodigo, por ello ya nada se superpone sobre el navbar*/
 }
 
 .titulo-principal {
@@ -216,6 +217,13 @@ h2 {
 
 .redes__footer{
     margin-left: 20%;
+}
+
+.parte__final__pagina {
+    margin: 2% 0 0 8%;
+}
+.hipervinculos_finales_footer {
+    margin-left: 30%;
 }
 
 @media (max-width: 768px) {
